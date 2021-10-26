@@ -1,0 +1,35 @@
+{
+  "name": "vloop/gis",
+  "description": "Package",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "gis",
+    "module",
+    "tasks"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vitaly Litvinov",
+      "email": "support@tirrs.ru",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "yiisoft/yii2": "~2.0.0",
+    "vloop/entities": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "vloop\\gis\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
